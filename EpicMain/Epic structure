@@ -1,0 +1,120 @@
+Triage
+
+-First time access
+	-Is user done with EPIC training?
+		-Yes
+			-
+		-No
+			-
+-User can login before
+	-What market is the user accessing?
+		- WA/OR/NE/ND/TX/TN/KY/IA
+			-
+		- Arkansas (Hot Springs)
+			- Tell EU to open a ticket with the Mercy Health System HD
+			  1-866-440-3399
+		- Little Falls, MN
+			-
+		- ECL
+			- Use DENKB0010499
+
+Missing PRD Epic icon/citrix icon
+-first time access
+ -Refer to manager submit req sailpoint/acs
+-Not first time access
+ -create REQ identify the icon route to Iam-loc
+
+
+
+
+
+
+
+
+
+What is the issue of the user
+ -Citrix icon/Epic icon/epic acces
+  =Does the user have epic icon?
+	-no
+	 -Is this the first acces?
+	  -yes
+	   -Contact Manager to have manager submit a SailPoint / AccessCommonSpirit request for Epic
+	  -no
+	   - Does the user have approve request?
+		-yes
+		 -Route to IAM Loc
+		-no
+		 -Contact Manager to have manager submit a SailPoint / AccessCommonSpirit request for Epic
+	-yes
+	 -What is the icon that the users is clicking?
+	  -PRD
+	   -Is the user getting an error / Epic won't load / Epic won't connect to the Server / This Chart has been locked / Order locked by / Stuck on Patient Chart?
+	    -yes EU is getting an error /Epic won't load
+		 -
+		-no EU is NOT getting an error / Epic is launching to the login screen
+	  -PLY
+
+	  <p style="color: green;"><b>Check user status in Epic LDAP</b></p>
+      <span class="caret">What is the status of the user in Epic?</span>
+      <ul class="nested">
+        <li>
+          <span class="caret option">Active</span>
+          <ul class="nested">
+            <li>
+              <p style="color: green;"><b>Have the user login to CommonSpirit sites and Epic (e.g CommonSpiritCorp, SSPR, PSS, etc.)</b</p>
+              <span class="caret">Can the user login to CommonSpirit?</span>
+              <ul class="nested">
+                <li>
+                  <span class="caret option">Yes</span>
+                  <ul class="nested">
+  
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <span class="caret option">No</span>
+                  <ul class="nested">
+                    <li>
+                      <h4 style="margin-left: 15px;"><b>Verify the user first before reseting password or provideing information. Follow <a href="https://sites.google.com/commonspirit.org/nsd/sdverif  target="_blank">Service Desk User Verification Process</a></b></h4>
+                      <p style="color: green;"><b>Try to proceed with password reset on OKTA and then have the user login to Epic again.</b></p>
+                      <span class="caret">Can the user login to Epic now?</span>
+                      <ul class="nested">
+                        <li>
+                          <span class="caret option">Yes</span>
+                          <ul class="nested">
+  
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <span class="caret option">No</span>
+                          <ul class="nested">
+  
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="caret option">Inactive</span>
+          <ul class="nested">
+            <li>
+              <p style="color: green;"><b>*Create a ticket and route to Epic-Security*</b></p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="caret option">Training blocked</span>
+          <ul class="nested">
+            <li>
+              <p style="color: green;"><b>*Refer the user to manager/trainer*</b></p>
+            </li>
+          </ul>
+        </li>
+      </ul>
